@@ -17,7 +17,7 @@ h1 {
     font-family: "Source Sans Pro", sans-serif;
     font-weight:bold ;
     text-shadow: 5px 5px 5px rgb(4, 47, 238) ;
-    color: rgb(243, 239, 23);
+    color: rgba(3, 2, 61, 0.925);
     font-size: 50px;
 }
 h2{
@@ -42,7 +42,7 @@ h2{
 
 }
 .zong{
-    color: orange;
+    color: rgb(221, 146, 8);
 }
 .chi{
     color:darkred;
