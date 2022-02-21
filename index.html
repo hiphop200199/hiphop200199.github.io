@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>加冷站</title>
         <link rel="stylesheet" href="style.css">
-        
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYmQMH4Wv_wqGX5Tt-mgut_-m1pn8BB1s&callback=initMap"></script>
     </head>
 
     <body class="bg2">
@@ -26,8 +26,7 @@
             <img id="imgcrow" src="R.jpg" alt="這是一隻烏鴉飛過去的圖">
             <h3 class="example">ex2.<span class="zong">中中:我們有聽過一天一顆蘋果，遠離醫生一天。</span><span class="chi">奇奇:對呀!</span><span class="zong">中中:那奇奇知道哪一種水果可以幫助交朋友嘛?</span><span class="chi">奇奇:是什麼?</span><span class="zong">中中:是香蕉呀!</span><span class="chi">奇奇:為什麼?</span><span class="zong">中中:人一開始不認識的時候像平行線，認識了之後兩道線就會</span><span class="point">相交啦!</span><span class="chi">奇奇:...</span>
             </h3>
-            <img>
-            <img>
+            <div id="googlemap" width="500" height="300"></div>
             <article>
             <p>定義:冷笑話指失敗的笑話，背後的幽默不容易被理解，或者，確實單調而且沒有任何幽默感...。
                 冷笑話在很多地方都看的到，書報雜誌、影片媒體等等，
@@ -39,7 +38,13 @@
             <h4>冷笑話範例</h4>
             <iframe width="500" height="300" src="https://www.youtube.com/embed/1J5JbtfvLoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!-- 這邊我想放youtube連結分享冷笑話，要是youtube連結也能responsive就好了-->
-            
+            <script>function mymap(){
+    var mapprop={
+        center:new google.maps.LatLng(23,120),
+        zoom:5,
+    };
+    var map=new google.maps.Map(document.getElementById("googlemap"),mapprop);
+}</script>
         </main>
         <footer>
             <h4>內部連結</h4><!--首頁有分內外連結，這邊擺內部連結-->
