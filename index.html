@@ -1,34 +1,32 @@
 <!doctype html>
-
 <html lang="zh-Hant" >
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>加冷站</title>
+        <title>加冷站</title>       
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="animate.css/animate.min.css">
+        <script src="jquery/dist/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
-       
-    </head>
-
-    <body class="bg2">
-        <header><!--我想在標題旁邊擺按鈕，來切換整個色調-->
-            <h1><b>加冷站</b></h1><!--標題部分可以弄一點色彩、陰影-->
-                <h2>冷笑話加油站:加冷站</h2><!--要置中-->
-                <hr/>
+        <script src="script.js"></script>
+    </head><!--引用bootstrap3了,animate.css了-->
+    <body>
+        <header class="headerBGC"><!--我想在標題旁邊擺按鈕，來切換整個色調-->
+            <h1 class="title animate__animated animate__shakeX"><b>加冷站</b></h1><!--標題部分可以弄一點色彩、陰影-->
+            <h2 >冷笑話加油站:加冷站</h2><!--要置中-->               
         </header>
-        <main>
+        <main >
             <article>
-            <p>前言:冷笑話很好玩的，冷笑話就站長的角度而言，是一段讓人覺得怎麼想都想不到連結的梗。可以很長，也可以超級簡短，端看每個人怎麼樣異想天開?，
-                也許彼此有共鳴，也許淡淡的聽過就好，也無傷大雅。什麼是冷笑話呢!
-                給大家看站長的突發奇想↓<!--把字框起來後放左邊，右邊放圖-->
+            <p>前言:冷笑話很好玩的，冷笑話是讓人覺得怎麼想都想不到連結的梗。
+                也許有共鳴，或淡淡的聽過就好，無傷大雅。什麼是冷笑話呢!問烏鴉吧!
+                <!--把字框起來後放左邊，右邊放圖-->
             </p>
             </article>
             <h3 class="example"><span class="zong">中中:唉~012345678...</span><span class="chi"> 奇奇:怎咪啦看起來那咪難過?</span><span class="zong">中中:</span><span class="point">無nine呀</span><span class="chi"> 奇奇:...</span></h3>
-            <img id="imgcrow" src="R.jpg" alt="這是一隻烏鴉飛過去的圖">
-            <h3 class="example">ex2.<span class="zong">中中:我們有聽過一天一顆蘋果，遠離醫生一天。</span><span class="chi">奇奇:對呀!</span><span class="zong">中中:那奇奇知道哪一種水果可以幫助交朋友嘛?</span><span class="chi">奇奇:是什麼?</span><span class="zong">中中:是香蕉呀!</span><span class="chi">奇奇:為什麼?</span><span class="zong">中中:人一開始不認識的時候像平行線，認識了之後兩道線就會</span><span class="point">相交啦!</span><span class="chi">奇奇:...</span>
-            </h3>
-           
+            <img id="imgcrow" src="R.jpg" title="啊!啊!啊..." alt="這是一隻烏鴉飛過去的圖">
+            <h3 class="example">ex2.<span class="zong">中中:我們有聽過一天一顆蘋果，遠離醫生一天。</span><span class="chi">奇奇:對呀!</span><span class="zong">中中:那奇奇知道哪一種水果可以幫助交朋友嘛?</span><span class="chi">奇奇:是什麼?</span><span class="zong">中中:是香蕉呀!</span><span class="chi">奇奇:為什麼?</span><span class="zong">中中:人一開始不認識的時候像平行線，認識了之後兩道線就會</span><span class="point">相交啦!</span><span class="chi">奇奇:...</span>          
             <article>
-            <p>定義:冷笑話指失敗的笑話，背後的幽默不容易被理解，或者，確實單調而且沒有任何幽默感...。
+            <p>定義:指失敗的笑話，背後的幽默不容易被理解，或者，確實單調而且沒有任何幽默感...。
                 冷笑話在很多地方都看的到，書報雜誌、影片媒體等等，
                 一個冷笑話會不會受歡迎會受到聽者的影響，如果對方與你熟識，
                 那可以適時地增加歡樂氣氛，但如果是不熟的場合，有時反而會給對方留下奇怪的印象。
@@ -36,25 +34,19 @@
             </article>
             <img>
             <h4>冷笑話範例</h4>
-            <iframe width="500" height="300" src="https://www.youtube.com/embed/1J5JbtfvLoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width=350 height=200 src="https://www.youtube.com/embed/1J5JbtfvLoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!-- 這邊我想放youtube連結分享冷笑話，要是youtube連結也能responsive就好了-->
-           
+            
         </main>
-        <footer>
-            <h4>內部連結</h4><!--首頁有分內外連結，這邊擺內部連結-->
+        <footer class="footerBGC">
             <nav>
                 <a href="collection.html">冷●凍●庫</a> 
-            </nav>
-            <h4>外部連結</h4>
-            <nav>
                 <a href="https://zh.wikipedia.org/wiki/%E5%86%B7%E7%AC%91%E8%A9%B1" target="_blank">冷笑話wiki</a>
                 <a href="https://zh.wikipedia.org/wiki/%E5%8F%8D%E7%AC%91%E8%A9%B1" target="_blank">反笑話wiki</a>
                 <a href="https://zh.wikipedia.org/zh-tw/%E8%BF%B7%E5%9B%A0" target="_blank">謎因wiki</a>
                 <a href="https://www.gamertelligence.com/bad-puns/" target="_blank">英文冷笑話網站</a>
                 <a href="https://www.facebook.com/%E8%B6%85%E5%BB%A2%E5%86%B7%E7%AC%91%E8%A9%B120-226799517806567" target="_blank">超廢冷笑話2.0</a>
-
-            </nav><!--這裡要放外部連結-->
+            </nav>
         </footer>
     </body>
-
 </html>
