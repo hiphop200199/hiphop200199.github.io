@@ -4,15 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        
+        <script src="script.js"></script>
+        <link href="animate.css/animate.min.css">
+        <link href="bootstrap/dist/css/bootstrap.min.css">
+        <script src="jquery/dist/jquery.min.js"></script>
         <title>冷●凍●庫</title>     
     </head>
-    <body class="bg2">
-        <header>
-            <h1 id="title"><b>冷●凍●庫</b></h1>
+    <body>
+        <header class="headerBGC">
+            <h1 id="top" class="title"><b>冷●凍●庫</b></h1>
             <h2>以下是站長突發奇想，很意外地想到</h2>
         </header>    
-        <main>
+        <main class="mainBGC">
             <ol>
                 <li><span class="zong">中中:奇奇，你知道為什麼房間不能打掃得很乾淨嗎?</span><span class="chi">奇奇:為咪呢?</span><span class="zong">中中:因為就會</span><span class="point">"一室無塵"呀!</span><span class="chi">奇奇:...</span>
                 </li>
@@ -52,7 +55,7 @@
                 </li>
                 <li><span class="zong">中中:奇奇你知道哪一種動物視力不太好嗎?</span> <span class="chi">奇奇:是什麼呢?</span> <span class="zong">中中:蛇呀!因為<span class="point">"眼鏡蛇"</span>呀</span> <span class="chi">奇奇:.....</span>
                 </li>
-                <li><span class="zong">中中:奇奇你知道哪一種維他命最貴嗎?</span> <span class="chi">奇奇:是什麼?</span> <span class="zong">中中:是維他命C喔 因為<span class="point">"物以C為貴"</span>呀</span> <span class="chi">奇奇:....</span>
+                <li><span class="zong">中中:奇奇你知道哪一種維他命最貴嗎?</span> <div class="chi">奇奇:是什麼?</div> <span class="zong">中中:是維他命C喔 因為<span class="point">"物以C為貴"</span>呀</span> <span class="chi">奇奇:....</span>
                 </li>
                 <li><span class="zong">中中:奇奇，我最近在戶外的時候，抬頭的話都會有點不太舒服，有點難說，可能痠痛吧</span> <span class="chi">奇奇:怎咪這樣呢</span> <span class="zong">中中:我想可能是因為抬頭看到天空，就想到<span class="point">"我的天哪"</span>吧</span> <span class="chi">奇奇:....</span>
                 </li>
@@ -60,16 +63,29 @@
                 </li>
                 <li><span class="zong">中中:奇奇你知道在太魯閣國家公園裡，做什麼最好玩嗎?</span> <span class="chi">奇奇:會是什麼</span> <span class="zong">中中:打棒球呀</span> <span class="chi">奇奇:為什麼?</span> <span class="zong">中中:因為把棒子拿起來，就是<span class="point">"大魯閣"</span>呀</span> <span class="chi">奇奇:.....</span>
                 </li>
-                <li>中中:</li>
-                <li></li>
-                <li></li>
+                <li><span class="zong">中中:女生真難懂</span><span class="chi">奇奇:不會呀，為什麼?</span><span class="zong">中中:因為，<span class="point">左看右看上看下看，原來每個女孩都不簡單</span>~</span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇你知道嗎?其實我都不太關心妹妹的</span><span class="chi">奇奇:為什麼呢?</span><span class="zong">中中:因為，<span class="point">愛妹讓人受盡委屈~</span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇你知道嗎?我蠻不喜歡大富翁遊戲的</span><span class="chi">奇奇:那不是很好玩嗎?</span><span class="zong">中中:唉，因為玩到最後我都是<span class="point">大付翁阿</span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇，你知道為什麼在網路世界裡沒有椅子嗎?</span><span class="chi">奇奇:為什麼?</span><span class="zong">中中:因為網路裡只有<span class="point">網站，他們都是站著的呀</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇你知道哪一隻貓最不會抓老鼠嗎?</span><span class="chi">奇奇:是什麼?</span><span class="zong">中中:是湯姆貓呀，因為<span class="point">湯姆貓抓不到傑利鼠</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:唉，abcdfg</span><span class="chi">奇奇:怎麼啦</span><span class="zong">中中:覺得孤單，<span class="point">孤苦無E</span></span><span class="chi">奇奇:...</span></li> 
+                <li><span class="zong">中中:唉，023456789</span><span class="chi">奇奇:怎</span><span class="zong">中中:覺得孤單，<span class="point">孤苦無1</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:假如天上的星星跟人一樣有情緒，那誰會是最多愁善感的呢?</span><span class="chi">奇奇:是什麼呢?</span><span class="zong">中中:是北極星喔，因為<span class="point">北極星的眼淚~說不出的傷悲~</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:小明呀，因為常常上學遲到被老師罰抄課文，但是小明怎樣都不改，老師也覺得無可奈何。大家看小明這麼厲害讓老師沒轍，所以偷偷給他一個綽號</span><span class="chi">奇奇:是什麼呢?</span><span class="zong">中中:他們叫他<span class="point">抄人</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇，你知道嗎？我很久沒有剪頭髮了，難怪總覺得最近變呆了</span><span class="chi">奇奇:那有什麼關係?</span><span class="zong">中中:因為我，<span class="point">無理頭呀</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇你知道嗎?我每次吃完水餃呀，就會覺得很飽想睡睡了，站著也會睡著</span><span class="chi">奇奇:太誇張了，怎麼會</span><span class="zong">中中:哈哈，因為<span class="point">站不住餃呀</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇我把棗子洗好了喔 在桌上</span><span class="chi">奇奇:你終於不講冷笑話了!</span><span class="zong">中中:真的呢，所以我<span class="point">洗棗了</span>哈</span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇你知道為什麼老闆都不喜歡老員工嗎?</span><span class="chi">奇奇:不知道耶，為何</span><span class="zong">中中:因為老闆都喜歡<span class="point">小新肝</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇你知道哪個國家的人最漂亮嗎?</span><span class="chi">奇奇:不知道耶</span><span class="zong">中中:是美國人唷，因為都是<span class="point">美男子、美女</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:牛牽到北京還是牛，那馬牽到阿拉伯呢?哈哈<span class="point">馬來西亞!</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:全世界最殘忍的就是亞洲人了，畢竟拿著筷子的手，<span class="point">筷子手</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇，我買了一台新車很便宜呢</span><span class="chi">奇奇:是喔，真棒</span><span class="zong">中中:因為，<span class="point">10萬福特</span></span><span class="chi">奇奇:...</span></li>
+                <li><span class="zong">中中:奇奇，我最近都瘦不下來呢，真煩</span><span class="chi">奇奇:嘻嘻，<span class="point">保重唷</span></span><span class="zong">中中:阿!!!</span></li>
             </ol>        
         </main>
-        <footer>
+        <footer class="footerBGC">
             <nav>
-                <a href="#title">回到頂部</a>
-            </nav>
-            <nav>
+                <a href="#top">回到頂部</a>
                 <a href="index.html">回到首頁</a>
             </nav>    
         </footer>        
