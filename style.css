@@ -1,23 +1,37 @@
 /* Place your CSS styles in this file */
-.bg1{/*主要的背景，我想讓背景弄成深色的斜的漸層*/
-    background-color: black;
-    color: whitesmoke;
+/*.bg1{主要的背景，我想讓背景弄成深色的斜的漸層
+    background-image: linear-gradient(to bottom,black,rgb(46, 3, 95),rgb(66, 3, 3),rgb(99, 32, 1),rgb(9, 43, 3));
+    width: 100%;
+    height: 100%;
+    color: rgb(240, 243, 69);
+    font-size: 20px;
 }
 .bg2{/*白天版背景*/
     /*background-color: aliceblue;
-    color:rebeccapurple;我原本是這樣弄，但後來知道漸層怎麼弄，就註掉了*/
+    color:rebeccapurple;我原本是這樣弄，但後來知道漸層怎麼弄，就註掉了
     background-image: radial-gradient(AliceBlue,Azure,LightCyan,PaleTurquoise,PowderBlue);
     width: 100%;
     height: 100%;
     color: midnightblue;
     font-size: 20px;
+}*/
+
+.headerBGC{
+    background-image: linear-gradient(45deg,white,whitesmoke,rgb(160, 249, 252),rgb(141, 228, 255),rgb(170,249,257));
 }
-h1 {
+.footerBGC{
+    background-image: linear-gradient(20deg,rgb(64, 92, 253),rgb(113, 113, 243),rgb(58, 225, 247),rgb(159, 250, 238),whitesmoke);
+}
+
+.bgcbtn{
+    color: black;
+}
+.title {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight:bold ;
-    text-shadow: 5px 5px 5px rgb(4, 47, 238) ;
-    color: rgba(3, 2, 61, 0.925);
+    text-shadow: 5px 5px 5px rgb(252, 185, 3) ;
+    color: rgba(230, 71, 8, 0.925);
     font-size: 50px;
 }
 h2{
@@ -39,15 +53,29 @@ h2{
     font-weight: bold;
     font-size: 1.5em;
     color: crimson;
-
+    display: inline-block;
+   
 }
 .zong{
-    color: rgb(221, 146, 8);
+    color: rgb(240, 84, 12);
 }
 .chi{
     color:darkred;
 }
 #imgcrow{
-    max-width: 100%;
-    height:auto ;
+    width: 30%;
+    height: 20% ;
+}
+#imgcrow:hover{
+    transition-duration: 1s;
+    opacity: 0.5;
+    width: 25%;
+    height: 15%;
+}
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+    color: wheat;
+    font-weight: 700;
+   display:block;
+   text-align: center;
 }
