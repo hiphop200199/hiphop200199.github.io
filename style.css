@@ -22,10 +22,6 @@
 .footerBGC{
     background-image: linear-gradient(20deg,rgb(64, 92, 253),rgb(113, 113, 243),rgb(58, 225, 247),rgb(159, 250, 238),whitesmoke);
 }
-
-.bgcbtn{
-    color: black;
-}
 .title {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
@@ -56,11 +52,33 @@ h2{
     display: inline-block;
    
 }
+.centaa{
+   text-align: center;
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+}
 .zong{
     color: rgb(240, 84, 12);
 }
 .chi{
     color:darkred;
+}
+.actionlist{
+    list-style-type: none;
+    background-image:linear-gradient(to right,rgb(124, 207, 255),rgb(208, 242, 255),rgb(160, 249, 252),rgb(141, 228, 255),rgb(47, 201, 240)); ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.actionlist li{
+   color: lightcoral;
+   font-size: 24px;
+   font-weight:700;
+}
+.actionlist li:hover{
+    background-color: rgb(247, 250, 70);
+    transition: 1s;
 }
 #imgcrow{
     width: 30%;
@@ -72,10 +90,30 @@ h2{
     width: 25%;
     height: 15%;
 }
+#mrcold{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+#youtube{
+    max-width: 30%;
+    height: auto;
+}
 a:link,a:visited,a:hover,a:active{
     text-decoration: none;
     color: wheat;
     font-weight: 700;
+    font-size: 20px;
    display:block;
    text-align: center;
+}
+@media screen and (max-device-width:768px){
+    #youtube,#imgcrow{
+        width: 100%;
+    }
+}
+#textbox,#submitbtn{
+    display: block;
+    margin: 0 auto;
 }
