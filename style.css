@@ -71,12 +71,14 @@ h2{
     flex-direction: row;
     justify-content: flex-start;
 }
-.actionlist li{
+.actionlist button{
    color: lightcoral;
    font-size: 24px;
    font-weight:700;
+   border: none;
+   background-color: transparent;
 }
-.actionlist li:hover{
+.actionlist button:hover{
     background-color: rgb(247, 250, 70);
     transition: 1s;
 }
