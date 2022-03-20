@@ -75,13 +75,16 @@ h2{
    color: lightcoral;
    font-size: 24px;
    font-weight:700;
-   border: none;
+   border: transparent;
    background-color: transparent;
 }
 .actionlist button:hover{
     background-color: rgb(247, 250, 70);
     transition: 1s;
 }
+
+    
+
 #imgcrow{
     width: 30%;
     height: 20% ;
@@ -94,9 +97,10 @@ h2{
 }
 #mrcold{
     display: block;
-    margin: 0 auto;
+    margin: auto;
     max-width: 100%;
     height: auto;
+    position: relative;
 }
 #youtube{
     max-width: 30%;
@@ -118,4 +122,14 @@ a:link,a:visited,a:hover,a:active{
 #textbox,#submitbtn{
     display: block;
     margin: 0 auto;
+}
+@keyframes slide{
+    0%{left: 0px;}
+    33%{left: 200px;}
+    67%{left: -200px;}
+    100%{left: 0px;}
+}
+@keyframes rotat {
+    0%{transform: rotateZ(0deg);}
+    100%{transform: rotateZ(360deg);}
 }
