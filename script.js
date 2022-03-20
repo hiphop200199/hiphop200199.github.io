@@ -33,6 +33,7 @@ function sli(){
 }
 function hor(){
     actor.src="horse.svg";
+    actor.style.visibility="visible";
     actor.style.width="344px";
     actor.style.height="413px";
     say.innerHTML="馬牽到阿拉伯是什麼?馬來西亞!";
